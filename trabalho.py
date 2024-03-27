@@ -42,9 +42,9 @@ print(tabulate.tabulate(tabela, headers='keys', tablefmt='fancy_grid'))
 #analise de faixa de lucro 
 if(Ml > 20):
  nomeTab = "O lucro sera Alto"
-elif(Ml> 10 or Pv <= 20):
+elif(Ml> 10 or Ml <= 20):
  nomeTab = "o lucro sera médio"
-elif(Ml > 0 or Pv <= 10):
+elif(Ml > 0 or Ml <= 10):
  nomeTab = "lucro sera baixo"
 elif(Ml == 0):
  nome_na_tabela = "Não ira ter lucro nem prejuizo"
