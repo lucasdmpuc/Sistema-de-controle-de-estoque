@@ -19,7 +19,7 @@ Pv = Ca/(1-((Cf+Cv+Iv+Ml)/(100)) )
 print(f"{Pv}")
 Rb = Pv - Ca
 
-#Calculo das porcentagem para inserção na tabela
+#Calculo das porcentagens para inserção na tabela
 custoAq = Ca/Pv * 100
 receitaBruta = 100- custoAq
 impostos = (Iv/100) * Pv
@@ -51,7 +51,7 @@ elif(Ml == 0):
 else :  
   nome_na_tabela = "Prejuizo"
 
-#tabelaaa mostrando o resultado obtido pela empresa  
+#tabela mostrando o resultado obtido pela empresa  
 lucro = Ml
 tabLuc = {
  "Resultado": [f"{lucro}%", f"{nomeTab}"]
